@@ -34,8 +34,6 @@ export const usePLC = () => {
     }
   }, [temperature]);
 
-  // const isAlarm = temperature > 90;
-
   return {
     running,
     setRunning,
